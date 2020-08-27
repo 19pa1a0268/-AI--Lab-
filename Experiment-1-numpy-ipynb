@@ -3,9 +3,9 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "name": "Copy of Untitled",
+      "name": "Untitled",
       "provenance": [],
-      "authorship_tag": "ABX9TyOp6riryxJw/0oAVVY1kc97",
+      "authorship_tag": "ABX9TyMqHOVsQVp2JNt+fb0bHlGv",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -405,6 +405,20 @@
     {
       "cell_type": "code",
       "metadata": {
+        "id": "yF0VELRtfwyY",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
         "id": "wSQbzikKa4va",
         "colab_type": "code",
         "colab": {}
@@ -435,7 +449,7 @@
         "print(np.subtract(k,v))\n",
         "print(np.divide(k,v))"
       ],
-      "execution_count": null,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
