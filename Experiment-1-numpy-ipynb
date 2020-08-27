@@ -3,7 +3,7 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "name": "Untitled",
+      "name": "Copy of Untitled",
       "provenance": [],
       "authorship_tag": "ABX9TyOp6riryxJw/0oAVVY1kc97",
       "include_colab_link": true
@@ -435,7 +435,7 @@
         "print(np.subtract(k,v))\n",
         "print(np.divide(k,v))"
       ],
-      "execution_count": 1,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
